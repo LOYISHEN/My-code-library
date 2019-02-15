@@ -1,7 +1,7 @@
 //filename: queue-v1.0.0.c
 //author: PenG
 //create time: 2019/02/15
-//discription: queue in c language for c program
+//description: queue in c language for c program
 
 #include "queue-v1.0.0.c.h"
 
