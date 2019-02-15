@@ -1,10 +1,10 @@
-//filename: linked-list.c
+//filename: linked-list-v1.0.0.c
 //author: PenG
 //create time: 2019/02/15
 //version: 1.0.0
 //description: linked list in c language for c program
 
-#include "linked-list.c.h"
+#include "linked-list-v1.0.0.c.h"
 
 int createUnidirectionalList(UnidirectionalListInfo *list)
 {
