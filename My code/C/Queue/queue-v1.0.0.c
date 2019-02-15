@@ -121,6 +121,8 @@ int releaseQueue(QueueInfo *queue)
 	}
 
 	free(queue->memoryHead);
+	
+	queue->memoryHead = NULL;
 
 	queue->queueHead = 0;
 	queue->queueTail = 0;
