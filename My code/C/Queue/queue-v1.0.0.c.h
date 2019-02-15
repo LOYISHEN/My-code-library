@@ -1,7 +1,7 @@
 //filename: queue-v1.0.0.c.h
 //author: PenG
 //create time: 2019/02/15
-//discription: queue in c language for c program
+//description: queue in c language for c program
 
 #pragma once
 #ifndef QUEUE_C_H_
@@ -23,15 +23,15 @@ typedef struct QueueData
 */
 typedef struct QueueInfo
 {
-	QueueData *memoryHead;		//queue memory head record ¶ÓÁĞÄÚ´æ¿Õ¼äµÄÍ·¼ÇÂ¼
+	QueueData *memoryHead;		//queue memory head record é˜Ÿåˆ—å†…å­˜ç©ºé—´çš„å¤´è®°å½•
 	
 	unsigned int queueHead;		//queue head, different from memoryHead, it records the start offset of queue
 	unsigned int queueTail;		//it records the tail offset of queue
 
-	unsigned int sizeOfQueue;	//amount of data that queue can store	Õâ¸ö¾ÍÊÇ±íÊ¾Õâ¸ö¶ÓÁĞ¿ÉÒÔ´æ´¢¶àÉÙ¸öÊı¾İ
+	unsigned int sizeOfQueue;	//amount of data that queue can store	è¿™ä¸ªå°±æ˜¯è¡¨ç¤ºè¿™ä¸ªé˜Ÿåˆ—å¯ä»¥å­˜å‚¨å¤šå°‘ä¸ªæ•°æ®
 
 	unsigned int queueLength;	//length of queue used
-	unsigned int sizeOfEmpty;	//size of empty space in queue ¿ÕÓà¿Õ¼äµÄ´óĞ¡
+	unsigned int sizeOfEmpty;	//size of empty space in queue ç©ºä½™ç©ºé—´çš„å¤§å°
 }QueueInfo;
 
 /*
